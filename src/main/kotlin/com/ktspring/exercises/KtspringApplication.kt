@@ -1,0 +1,11 @@
+package com.ktspring.exercises
+
+import org.springframework.boot.autoconfigure.SpringBootApplication
+import org.springframework.boot.runApplication
+
+@SpringBootApplication
+class KtspringApplication
+
+fun main(args: Array<String>) {
+	runApplication<KtspringApplication>(*args)
+}
